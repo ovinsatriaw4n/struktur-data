@@ -28,14 +28,14 @@ while(q == "y"):
 
     cuaca = str(input("masuk cuaca :"))
     x =binary_tree ("cuaca")
-    insert_left (x, str(input("lembab :")))
-    insert_left (x, str(input("hujan :")))
-    insert_right (x, str(input("cerah :")))
-    insert_right (x, str(input("angin :")))
+    insert_left (x, str(input("akar :")))
+    insert_left (x, str(input("ranting :")))
+    insert_right (x, str(input("kiri:")))
+    insert_right (x, str(input("kanan :")))
     l=get_left_child(x)
     print (x)
     if(cuaca == "hujan") or (b == "angin"):
-        print ("hasil : tidak")
+        print("hasil : tidak")
     elif (b == "cerah") or (b == "lembab"):
-        print ("hasil : main")
+        print("hasil : main")
     q = input("ulang lagi")
